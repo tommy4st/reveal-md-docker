@@ -7,4 +7,4 @@ EXPOSE 1948
 
 WORKDIR /usr/src/app
 
-CMD reveal-md . --disable-auto-open --css _style.css
+CMD ["reveal-md", ".", "--disable-auto-open", "--watch", "--css", "_style.css"]
